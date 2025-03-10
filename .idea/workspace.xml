@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524d3614-fad0-41bc-84d2-8c1a42d73b7e" name="Changes" comment="Initial commit" />
+    <list default="true" id="524d3614-fad0-41bc-84d2-8c1a42d73b7e" name="Changes" comment="Update dependencies and project metadata&#10;&#10;Pinned Django version to 5.1.7 and updated minimum Python version to 3.11 in setup.py. Added project description to README and included MIT license file. Updated IDE configuration to exclude additional folders and reflect project setup changes.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "iBfuRsiFUBbfzPdnJhXUfFFkk"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:iBfuRsiFUBbfzPdnJhXUfFFkk/django-generic-model-fields.git",
@@ -43,6 +52,7 @@
     "Shell Script.ip install --upgrade build.executor": "Run",
     "Shell Script.pip install --upgrade pip.executor": "Run",
     "Shell Script.pip install django.executor": "Run",
+    "Shell Script.twine upload dist/*.executor": "Run",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/daltonneely/code/iBfuRsiFUBbfzPdnJhXUfFFkk/django-generic-model-fields/src",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.pip install django">
+  <component name="RunManager" selected="Shell Script.twine upload dist/*">
     <configuration name="build" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="./.venv/bin/python -m build" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -119,11 +129,27 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="twine upload dist/*" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="./.venv/bin/python -m twine upload dist/*" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Shell Script.ip install --upgrade build" />
       <item itemvalue="Shell Script.pip install --upgrade pip" />
       <item itemvalue="Shell Script.pip install django" />
       <item itemvalue="Shell Script.build" />
+      <item itemvalue="Shell Script.twine upload dist/*" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -142,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741633194079</updated>
-      <workItem from="1741633195120" duration="1624000" />
+      <workItem from="1741633195120" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -152,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741634592693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update dependencies and project metadata&#10;&#10;Pinned Django version to 5.1.7 and updated minimum Python version to 3.11 in setup.py. Added project description to README and included MIT license file. Updated IDE configuration to exclude additional folders and reflect project setup changes.">
+      <option name="closed" value="true" />
+      <created>1741635085581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741635085581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Update dependencies and project metadata&#10;&#10;Pinned Django version to 5.1.7 and updated minimum Python version to 3.11 in setup.py. Added project description to README and included MIT license file. Updated IDE configuration to exclude additional folders and reflect project setup changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dependencies and project metadata&#10;&#10;Pinned Django version to 5.1.7 and updated minimum Python version to 3.11 in setup.py. Added project description to README and included MIT license file. Updated IDE configuration to exclude additional folders and reflect project setup changes." />
   </component>
 </project>
