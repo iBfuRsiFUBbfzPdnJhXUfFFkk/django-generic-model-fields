@@ -11,7 +11,7 @@ setup(
     url="https://github.com/iBfuRsiFUBbfzPdnJhXUfFFkk/django-generic-model-fields",
     packages=find_packages(),
     install_requires=[
-        "django>=5.0",
+        "django==5.1.7",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,5 +19,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.11",
 )
